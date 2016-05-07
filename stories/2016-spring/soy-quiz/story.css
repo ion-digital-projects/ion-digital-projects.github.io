@@ -136,7 +136,7 @@ hr {
 	display: none !important;
 }
 
-ol.answers > li:before, .qq-button:hover {
+ol.answers > li:before, button.qq-button:hover {
 	background-color: #3c8824 !important;
 }
 
