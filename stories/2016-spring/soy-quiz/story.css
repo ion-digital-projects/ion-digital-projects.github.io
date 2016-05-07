@@ -137,7 +137,7 @@ hr {
 }
 
 ol.answers > li:before, .qq-button:hover {
-	background-color: #3c8824;
+	background-color: #3c8824 !important;
 }
 
 /* FOOTER */
