@@ -130,8 +130,14 @@ hr {
 	margin-bottom: 100px;
 }
 
+/* QUIZ */
+
 #social-media {
 	display: none !important;
+}
+
+ol.answers > li:before, .qq-button:hover {
+	background-color: #3c8824;
 }
 
 /* FOOTER */
