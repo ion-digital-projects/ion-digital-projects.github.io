@@ -14,6 +14,7 @@ body {
 	height: auto;
 	min-height: 100%;
 	margin-left: 10%;
+	margin-top: -4%;
 }
 
 /* TEXT */
@@ -40,6 +41,8 @@ h2 {
 	margin-top: 15%;
 	margin-left: 4.5%;
 	width: 70%;
+	line-height: 182%;
+	text-align: center;
 }
 h2 span {
 	color: white;
@@ -56,8 +59,9 @@ h3 {
 }
 #featured {
 	border-bottom: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 4px;
 	padding-bottom: 0px;
+	margin-left: 5%;
 }
 
 h4 {
@@ -135,6 +139,8 @@ header {
 .story-wrapper {
 	max-width: 1000px;
 	margin-bottom: 100px;
+	width: 90%;
+	margin-left: 5%;
 }
 
 hr {
@@ -145,8 +151,9 @@ hr {
 }
 
 .row {
-	width: 100%;
+	width: 90%;
 	height: 500px;
+	margin-left: 5%;
 }
 
 .body-text {
@@ -243,6 +250,7 @@ p.icon-text {
 .feature-img {
 	width: 90%;
 	height: auto;
+	margin-left: 5%;
 }
 
 
@@ -275,8 +283,8 @@ figcaption a {
 	}
 
 	.feature-img {
-		width: 95%;
-		margin-left: -12.5%;
+		width: 90%;
+		margin-left: 5%;
 	}
 
 	.screenshot, .description {
@@ -305,6 +313,8 @@ figcaption a {
 	h2 {
 		font-size: 1em;
 		margin-left: 0;
+		line-height: 245%;
+		text-align: center;
 	}
 	#sbyline {
 		margin-left: 0;
@@ -322,16 +332,25 @@ figcaption a {
 	}
 	h2{
 		font-size: 2.5em;
+		line-height: 168%;
+		text-align: center;
 	}
 
 	.feature-img {
 		width: 90%;
 		height: auto;
+		margin-left: 5%;
 	}
 
 	.story-wrapper {
 		max-width: 1000px;
 		height: auto;
+		width: 90%;
+		margin-left: 5%
+	}
+	.row {
+		width: 90%;
+		margin-left: 5%;
 	}
 	#sbyline {
 		position: absolute;
