@@ -130,6 +130,9 @@ hr {
 	margin-bottom: 100px;
 }
 
+#social-media {
+	display: none !important;
+}
 
 /* FOOTER */
 footer {
