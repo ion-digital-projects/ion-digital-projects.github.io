@@ -130,6 +130,16 @@ hr {
 	margin-bottom: 100px;
 }
 
+#social-icons {
+	margin-top: 40px;
+	padding-left: 10%;
+}
+
+#social-icons a {
+	width: 20%;
+	display: inline-block;
+}
+
 /* QUIZ */
 
 #social-media {
@@ -137,12 +147,17 @@ hr {
 }
 
 ol.answers > li:before, button.qq-button:hover {
-	background-color: #3c8824 !important;
+	background-color: #3c8824;
 }
+
+/*.twitter-share-button {
+	background-image: url("../../../img/twitter.png");
+}
+*/
 
 /* FOOTER */
 footer {
-	height: 80px;
+	height: auto;
 	width: 100%;
 	padding-top: 5px;
 	background-color: #eee;
@@ -152,16 +167,56 @@ footer {
 	font-size: 0.7em;
 }
 
+#footer-content {
+	width: 80%;
+	margin-left: 10%;
+}
+
 footer p {
-	color: #aaa;
+	color: #999;
 }
 
 p.icon-text {
 	font-size: 0.9em;
-	color: #aaa;
+	color: #999;
 }
 
+#footer-content ul {
+	list-style-type: none;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 50px;
+	padding-top: 10px;
+	clear: both;
+}
 
+#footer-content ul li {
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-right: 2.5%;
+	height: auto;
+	padding-left: 0px;
+}
+
+#footer-content li a {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.3em;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #3c8824;
+	text-decoration: none;
+}
+
+#footer-content li a:hover {
+	text-decoration: underline;
+}
+
+#last {
+	margin-right: 0px;
+}
 
 /* STORIES */
 
@@ -272,13 +327,9 @@ figcaption a {
 		width: 1000px;
 		height: auto;
 	}
+
+	#footer-content {
+		width: 50%;
+		margin-left: 25%;
+	}
 }
-
-
-
-
-
-
-
-
-
