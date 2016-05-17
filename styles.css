@@ -36,7 +36,7 @@ h1 {
 
 h2 {
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 1em;
 	position: absolute;
 	margin-top: 15%;
 	width: 100%;
@@ -91,7 +91,7 @@ p {
 #sbyline {
 	text-transform: uppercase;
 	font-size: 0.7em;
-	margin-top: 22%;
+	margin-top: 24%;
 	position: absolute;
 	
 	color: white;
@@ -327,9 +327,11 @@ figcaption a {
 		font-size: .7em;
 		line-height: 245%;
 		text-align: center;
-		width: 100%;
+		width: 115%;
 		margin-top: 21%;
+		margin-left: -10%;
 	}
+
 	#sbyline {
 		font-size: .05em;
 		width: 100%;
